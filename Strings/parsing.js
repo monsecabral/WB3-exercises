@@ -2,11 +2,11 @@
 
 let fullName = "Monse Cabral";
 
-function indexOf(name){
-    let firstName = fullName.substring(0, 4);
-    let lastName = fullName.substring(5, 10);
+function indexOf(fullName){
+    let firstName = fullName.substring(0, 5);
+    let lastName = fullName.substring(6, 12);
 
-    let message1 = " Name: " + name;
+    let message1 = " Name: " + fullName;
     let message2 = " First Name: " + firstName;
     let message3 = " Last Name: " + lastName;
 
@@ -18,5 +18,5 @@ function indexOf(name){
     return nameDigitString;
 }
 
-let fullNameNoSpace = indexOf(name);
-console.log(fullNameNoSpace);
+let fullNameSpace = indexOf(fullName);
+console.log(fullNameSpace);
